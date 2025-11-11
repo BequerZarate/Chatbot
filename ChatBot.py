@@ -3,7 +3,7 @@
 import streamlit as st
 from groq import Groq
 
-st.set_page_config(page_title="Nada 12", page_icon="🏝️🏊‍♂️")
+st.set_page_config(page_title="Nada 12 horas 🏝️🏊‍♂️", page_icon="🏝️🏊‍♂️")
 st.title("Guapolandia: Fundada por Bequer.")
 nombre = st.text_input("Cual es el nombre de este nadador?")
 if st.button("Saludar!"):
@@ -96,3 +96,4 @@ if __name__ == "__main__":
 # Correr streamlit con la terminal de Python
 
 # python -m streamlit run MiChat.py (aca deben ingresar el nombre del archivo)
+
